@@ -24,5 +24,5 @@ module.exports = {
     ],
   },
 
-  plugins: [new HtmlWebpackPlugin({ template: './src/index.html' })],
+  plugins: [new HtmlWebpackPlugin({ title: 'Custom React Hooks' })],
 };
